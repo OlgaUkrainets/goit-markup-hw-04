@@ -393,7 +393,8 @@ img {
   fill: #afb1b8;
 }
 
-.clients-icons:hover {
+.clients-icons:hover,
+.clients-icons:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -450,6 +451,7 @@ img {
 }
 
 .item-cont {
+  margin: 0px;
   color: var(--main-light-color);
   font-size: 14px;
   font-weight: 700;
